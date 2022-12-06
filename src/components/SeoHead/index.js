@@ -54,8 +54,6 @@ const SeoHead = ({title}) => {
             </script>
 
             <link rel="icon" href="/images/favicon.ico"/>
-
-            {title && <title>{title}</title>}
         </Head>
     );
 };

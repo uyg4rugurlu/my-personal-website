@@ -1,15 +1,19 @@
 import {useTranslation} from "next-i18next";
 import {Card, ReadTime} from "components";
-import {SeoHead} from "components";
 
 import * as S from "./style";
 import Link from "next/link";
+import Head from "next/head";
 
 const Custom404 = ({allPosts}) => {
     const {t} = useTranslation();
 
     return (
-        <SeoHead title={t("404Title")}>
+        <>
+            <Head>
+                <title>{t("404Title")}</title>
+                <meta name="description" content={t("404Description")}/>
+            </Head>
             <S.Custom404>
                 <S.Title>{t("notFoundTitle")}</S.Title>
                 <S.Description>{t("notFoundDescription")}</S.Description>
@@ -35,7 +39,7 @@ const Custom404 = ({allPosts}) => {
                     ))}
                 </S.BlogsWrapper>
             </S.Custom404>
-        </SeoHead>
+        </>
     );
 };
 

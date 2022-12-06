@@ -10,5 +10,6 @@
   "personalTextTitle2": "web applications",
   "personalTextEmail": "hello@uygar.xyz",
   "blogsSectionTitle": "Blogs",
-  "404Title": "404 - Page not found"
+  "404Title": "404 - Page not found",
+  "404Description": "No page you're looking for, but below posts may be interest for you.",
 }
