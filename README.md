@@ -21,9 +21,14 @@
 
 ```markdown
 ---
-title: 'My new blog post'
-description: 'This is my new blog post'
-date: '2020-01-01'
+title: "My personal website"
+shortContent: "This is my personal website :p"
+date: "7 December, 2022"
+readTime: "2"
+slug: "my-personal-website"
+tag: "MyPersonalWebsite"
+keywords: "my, personal, website"
+metaDescription: "This is my personal website, for you to know"
 ---
 ```
 
