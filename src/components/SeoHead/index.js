@@ -11,7 +11,7 @@ const SchemaInfo = {
     "sameAs": ["https://twitter.com/uuygarugurlu", "https://github.com/uyg4rugurlu", "https://www.instagram.com/uuygarugurlu/"]
 };
 
-const SeoHead = () => {
+const SeoHead = ({title}) => {
     const {t} = useTranslation();
     const router = useRouter();
 
@@ -54,6 +54,8 @@ const SeoHead = () => {
             </script>
 
             <link rel="icon" href="/images/favicon.ico"/>
+
+            {title && <title>{title}</title>}
         </Head>
     );
 };
