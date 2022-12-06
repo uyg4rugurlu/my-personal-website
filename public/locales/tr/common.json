@@ -1,0 +1,13 @@
+{
+  "minReadTime": "{{ minutes }} dk.",
+  "notFoundTitle": "Oops, 404",
+  "notFoundDescription": "Aradığınız sayfa bulunamadı, fakat aşağıdaki paylaşımlar ilginizi çekebilir.",
+  "metaDescription": "Merhaba, ben Uygar Uğurlu. Web Yazılımı Geliştirme ile ilgileniyorum.",
+  "changeLanguage": "Dili {{ locale }} ayarla",
+  "personalSectionTitle": "Selam, ben Uygar Uğurlu",
+  "personalSectionText": "<1>{{title2}}</1> ile ilgilenen, yeni teknolojileri takip edip, öğrenen <0>{{title}}</0>yim. Her hangi bir konuda bana <2>{{email}}</2> adresinden ulaşabilirsiniz.",
+  "personalTextTitle": "Yazılım Geliştiricisi",
+  "personalTextTitle2": "Web Uygulamaları",
+  "personalTextEmail": "hello@uygar.xyz",
+  "blogsSectionTitle": "Bloglar"
+}

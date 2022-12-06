@@ -1,0 +1,13 @@
+{
+  "minReadTime": "{{ minutes }} min.",
+  "notFoundTitle": "Oops, 404",
+  "notFoundDescription": "No page you're looking for, but below posts may be interest for you.",
+  "metaDescription": "Hi there, I'm Uygar Uğurlu, a web application developer from Ankara, Turkey.",
+  "changeLanguage": "Change locale to {{ locale }}",
+  "personalSectionTitle": "Hi, I'm Uygar Uğurlu",
+  "personalSectionText": "I'm a <0>{{title}}</0>, developing <1>{{title2}}</1>. Feel free to get in touch with me by mailing <2>{{email}}</2>",
+  "personalTextTitle": "Software Developer",
+  "personalTextTitle2": "web applications",
+  "personalTextEmail": "hello@uygar.xyz",
+  "blogsSectionTitle": "Blogs"
+}
